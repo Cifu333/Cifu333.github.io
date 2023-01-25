@@ -18,4 +18,10 @@ Sample text.
 - Para ***BOLD ITALIC*** tres asteriscos.
 - Guion seguido de espacio para hacer listas.
 
+# Ejemplo de lista de tareas.
+
+- [ ] Apreder html
+- [ ] Apreder css
+- [ ] Apreder Javascript
+- [x] Apreder MySQL
 
