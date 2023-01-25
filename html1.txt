@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Página de la asignatura</title>
+<head>
+<body>
+<h1>Este es el titulo 1</h1>
+</body>
+</html>
