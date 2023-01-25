@@ -8,6 +8,15 @@ header,h1,nav,main,article,aside,footer{
 	margin:0;
 }
 
+h1{
+	display:flex;
+	
+}
+
+nav{
+	display:flex;
+	
+}
 header{
 	display:flex;
 	
@@ -15,25 +24,36 @@ header{
 
  header ul{
 	display:left;
-	text-align:right;
+	
 }
 
-header ul li{
-	text-decoration:none;
-}
 
 main{
 	display:flex;
 }
 
 article{
+	flex-basis:75%;
 	display:flex;
 }
 
 aside{
-	display:left;
+	flex-basis:25%;
+	display:flex;
 }
 
 footer{
 	display:flex;
+}
+
+@media (max-width:600px){
+	main{
+		flex-direction:column;
+	}
+	article{
+		flex-basis:100%;
+	}
+	aside{
+		flex-basis:100%;
+	}
 }
