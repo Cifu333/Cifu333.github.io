@@ -11,10 +11,11 @@ SAMPLE TEXT.
 
 Sample text.
 
-sample text.
 
-Dos **asteriscos** es BOLD.
-Un *asterisco* es ITALIC.
-Un _guion bajo_ también es ITALIC.
-Para ***BOLD ITALIC*** tres asteriscos.
+- Dos **asteriscos** es BOLD.
+- Un *asterisco* es ITALIC.
+- Un _guion bajo_ también es ITALIC.
+- Para ***BOLD ITALIC*** tres asteriscos.
+- Guion seguido de espacio para hacer listas.
+
 
