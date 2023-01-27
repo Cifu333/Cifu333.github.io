@@ -4,7 +4,7 @@
 		{"id": "Parking",
 		"name": "Parking de enti",
 		"description": "El que no puedes usar",
-		"items": ["piedra", "Bicicleta"]
+		"items": ["piedra", "bicicleta"],
 		"doors": ["principal", "salida"]}
 
 	],
