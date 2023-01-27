@@ -7,7 +7,12 @@
 	<link rel="stylesheet" href="base.css"/>
 	
 	<script>
-	fetch("https://rafaenti.github.io/game.json").then(response.json()).then(data => console.log(data));
+	
+	function game (data){
+	console.log(game.rooms);
+	}
+	
+	fetch("https://rafaenti.github.io/game.json").then(response.json()).then(data => game(data));
 	</script>
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
