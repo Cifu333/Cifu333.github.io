@@ -13,7 +13,7 @@
 		{"id": "piedra",
 		"name": "piedra gris",
 		"description": "Es una piedra gris",
-		"pickleable": true}
+		"pickleable": true},
 
 		{"id": "bicicleta",
 		"name": "bicicleta marron",
@@ -24,7 +24,7 @@
 	],
 	"doors": [
 	
-		{"id": "principal", "description": "puerta a la entrada de enti", "rooms": ["parking", "hall"]}
+		{"id": "principal", "description": "puerta a la entrada de enti", "rooms": ["parking", "hall"]},
 		{"id": "salida", "description": "salvación"}
 	]
 }
