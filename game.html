@@ -20,7 +20,9 @@
 	document.getElementById("terminal").inerHTML += "<p><strong> te encuentras en "+game_data.rooms[current_room.name]". Que quieres hacer?</p>"
 	}
 	console.log(data.rooms[0].name);
+	setTimeout(function()){
 	fetch("https://Cifu333.github.io/game.json").then(response.json()).then(data => game(data));
+	},2000);
 	</script>
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
