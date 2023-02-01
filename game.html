@@ -20,8 +20,16 @@
 	document.getElementById("terminal").inerHTML += "<p><strong> te encuentras en "+game_data.rooms[current_room.name]". Que quieres hacer?</p>"
 	}
 	
+	function terminal_out(info){
+	document.getElementById("terminal").inerHTML += info;
+	}
+	
 	function parseCommand (command){
 	
+	switch (command){
+	case "ver":
+	terminal_out("<p>"game_data.rooms[current_room].description+"</p>");
+		}
 	}
 	
 	function parseInstruction (instruction){
@@ -30,9 +38,10 @@
 	
 	function readAction (){
 	let = command document.getElementById("comands").value;
+	let instruction_trim= instruction.trim();
 	let data = instruntcion.trim().split(" ");
 	
-	if (data.length == 0){
+	if (data.length == 0 || instruction.trim ==""){
 	document.getElementById("terminal").inerHTML += "<p><strong>Error</strong>: escribe una instrucción</p>";
 	return;
 		}if (data.length== 1){
