@@ -202,6 +202,4 @@ function readAction ()
 }
 
 
-fetch("https://Cifu333.github.io/game.json")
-	.then(response.json())
-	.then(data => game(data));
+fetch("https://Cifu333.github.io/game.json").then(response => response.json()).then(data => game(data));
