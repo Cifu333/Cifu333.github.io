@@ -1,5 +1,4 @@
 
-	
 	let game_data;
 
 let current_room = 0;

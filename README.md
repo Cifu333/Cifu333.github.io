@@ -25,5 +25,3 @@ Sample text.
 - [ ] Apreder Javascript
 - [x] Apreder MySQL
 
-
-
