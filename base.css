@@ -16,12 +16,14 @@ nav ul{padding-inline-start:20px;
 	 margin:0;}
 nav ul li{
 	display:inline;
+	align-items: center;
 	margin-right:20px;
 }
 nav ul li a{
 text-decoration:none;
 color:#8C7D69;
 font-size:14px;
+align-items: center;
 font-family:arial;}
 nav ul li a:hover{color:#C3C3C3;}
 #nombre{font-size:35px;
@@ -50,7 +52,7 @@ justify-content: space-around;
  color:#595340;
  margin-bottom:0;
  font-weight:500;
- font-size:86px;
+ font-size:40px;
 top:100;
  }
  h2{font-family:starsight;
