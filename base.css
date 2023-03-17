@@ -89,6 +89,15 @@ top:100;
 	
 }
 
+.foto-hoby{
+	text-align:center;
+	display: flex;
+	margin-left:790px;
+	height:60px;
+	weight:90px;
+	
+}
+
 #carta{
 	aling-items:center;
 	display: flex;
