@@ -75,20 +75,32 @@ top:100;
  letter-spacing:0.1em;
  margin-bottom:50px;}
  
-.cifu-cinturon{
-	aling-items:center;
+#cifu-cinturon{
+	text-align:center;
 	display: flex;
+	margin-left:790px;
 }
 
-.carta{
+#texto-presentacion{
+	font-size:30px;
+	text-align:center;
+}
+
+#carta{
 	aling-items:center;
 	display: flex;
 	height:700px;
 	weight:900px;
 }
+figure {
+	
+	align-content:left;
+}
+
 
 img{
 	display:flex;
+	align-content:left;
 }
 
 @font-face{
