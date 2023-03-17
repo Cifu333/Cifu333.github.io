@@ -118,7 +118,7 @@ function parseInstruction (instruction)
 		case "ir":
 			let door_num = getDoorNumber(instruction[1]);
 			if (door_num < 0){
-				console.log("Puerta errónea");
+				console.log("Puerta errónea.");
 				return;
 			}
 
@@ -126,8 +126,8 @@ function parseInstruction (instruction)
 
 			let room_num = getRoomNumber(game_data.doors[door_num].rooms[0]);
 			if (room_num < 0){
-				console.log("Habitación errónea");
-				terminal_out("<p>Esta habitacion no existe, creo, espero que no sea el codigo porque me mato :D</p>");
+				console.log("Habitación errónea.");
+				terminal_out("<p>Esta habitacion no existe.</p>");
 				return;
 			}
 			console.log("Current room: ", current_room);
@@ -154,8 +154,8 @@ function parseInstruction (instruction)
 			}
 
 			if (game_data.items[item_num].pickable == false){
-				console.log("Item no se puede coger");
-				terminal_out("<p>No puedes coger esto, no es open source</p>");
+				console.log("Item no se puede coger.");
+				terminal_out("<p>No puedes coger esto.</p>");
 				return;
 			}
 						
