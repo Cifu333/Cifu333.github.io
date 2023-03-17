@@ -5,7 +5,13 @@
 		"name": "Parking de enti",
 		"description": "El que no puedes usar",
 		"items": ["piedra", "bicicleta"],
-		"doors": ["principal", "salida"]}
+		"doors": ["principal", "salida"]},
+		
+		{"id":"hall", 
+		"name":"Hall principal", 
+		"description":"Hall donde reunirse a llorar",
+		"items":["detector"],
+		"doors":["principal","ordenadores","secretaria","02"]},
 
 	],
 	"items": [
