@@ -90,14 +90,17 @@ top:100;
 }
 
 .foto-hoby{
-	text-align:center;
+	align-content:center;
 	display: flex;
-	margin-left:790px;
-	height:60px;
-	weight:90px;
-	
+	margin-left:100px;
+	height:300px;
+	weight:400px;
 }
 
+ .text-hoby{
+	 margin-left:120px;
+ }
+ 
 #carta{
 	aling-items:center;
 	display: flex;
