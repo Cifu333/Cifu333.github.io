@@ -78,12 +78,13 @@ top:100;
 #cifu-cinturon{
 	text-align:center;
 	display: flex;
-	margin-left:810px;
+	margin-left:790px;
 }
 
 #texto-presentacion{
-	font-size:30px;
+	font-size:18px;
 	text-align:center;
+	margin:15px;
 }
 
 #carta{
