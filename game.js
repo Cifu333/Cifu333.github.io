@@ -155,7 +155,7 @@ function parseInstruction (instruction)
 
 			if (game_data.items[item_num].pickable == false){
 				console.log("Item no se puede coger");
-				terminal_out("<p>No puedes coger esto, no es open source</p>");
+				terminal_out("<p>Esto no se puede cojer</p>");
 				return;
 			}
 						

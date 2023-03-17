@@ -5,7 +5,13 @@
 		"name": "Parking de enti",
 		"description": "El que no puedes usar",
 		"items": ["piedra", "bicicleta"],
-		"doors": ["principal", "salida"]}
+		"doors": ["principal", "salida"]},
+		
+		{"id":"hall", 
+		"name":"Hall", 
+		"description":"entrada a enti",
+		"items":["papelera"],
+		"doors":["principal","ordenadores","secretaria","wc"]},
 
 	],
 	"items": [
@@ -13,6 +19,11 @@
 		{"id": "piedra",
 		"name": "piedra gris",
 		"description": "Es una piedra gris",
+		"pickleable": true},
+		
+		{"id": "papelera",
+		"name": "Papelera",
+		"description": "Una papelera gris",
 		"pickleable": true},
 
 		{"id": "bicicleta",
@@ -26,5 +37,6 @@
 	
 		{"id": "principal", "description": "puerta a la entrada de enti", "rooms": ["parking", "hall"]},
 		{"id": "salida", "description": "salvación"}
-	]
+	],
+	"inventory":[]
 }
