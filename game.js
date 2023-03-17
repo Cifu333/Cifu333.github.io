@@ -47,7 +47,7 @@ function parseCommand (command)
 		case "inventario":
 			let items = "";
 			if (game_data.inventory.length <= 0){
-				terminal_out("<p>No tienes ningun objeto</p>")
+				terminal_out("<p>No tienes ningun objeto.</p>")
 			}
 			else{
 				for(let i = 0; i < game_data.inventory.length; i++){
