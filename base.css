@@ -76,8 +76,15 @@ top:100;
  letter-spacing:0.1em;
  margin-bottom:50px;}
  
+#cifu-cinturon{
+	aling-items:center;
+	display: flex;
+}
 
-
+img{
+	text-align:center;
+	display:flex;
+}
 
 @font-face{
 	  font-family:"galine";
