@@ -1,42 +1,31 @@
 {
 	"rooms":[
-		{"id":"parking", 
-		"name":"Parking de Enti", 
-		"description":"El Parking que no puedes usar, hay muchas piedras y una bicicleta vieja",
-		"items":["piedra", "bicicleta"],
-		"doors":["principal","salida"]},
-		
-		{"id":"hall", 
-		"name":"Hall principal", 
-		"description":"Hall donde reunirse a llorar",
-		"items":["detector"],
-		"doors":["principal","ordenadores","secretaria","02"]},
-		
-		{"id":"02", 
-		"name":"Sala 02", 
-		"description":"No, en serio, apesta, viola el tratado de versalles",
-		"items":["piedra", "ordenador"],
-		"doors":["02"]},
-		
-		{"id":"secretaria", 
-		"name":"Secretaria de Enti", 
-		"description":"hay impresoras ordenadores...",
-		"items":["papelera","impresora"],
-		"doors":["secretaria"]}
+
+		{"id": "Parking",
+		"name": "Parking de enti",
+		"description": "El que no puedes usar",
+		"items": ["piedra", "bicicleta"],
+		"doors": ["principal", "salida"]}
+
 	],
-	"items":[
-		{"id":"piedra", "name":"Pediedra gris pequeña", "description":"Es una piedra","pickable":true},
-		{"id":"bicicleta", "name":"Bicicleta vieja desgastada", "description":"Algun alumno la abandono","pickable":false},
-		{"id":"papelera", "name":"papelera", "description":"Boli medio gastado usado para hacer los terribles examenes escritos","pickable":true},
-		{"id":"impresora", "name":"Impresora industrial", "description":"no nos la dejan usar","pickable":true},
-		{"id":"ordenador", "name":"Ordenador de trabajo", "description":"los usamos mucho","pickable":false},
+	"items": [
+
+		{"id": "piedra",
+		"name": "piedra gris",
+		"description": "Es una piedra gris",
+		"pickleable": true},
+
+		{"id": "bicicleta",
+		"name": "bicicleta marron",
+		"description": "esta abandonada",
+		"pickleable": false}
+
+
 	],
-	"doors":[
-		{"id":"principal", "description":"Puerta de entrada a ENTI","rooms":["parking","hall"]},
-		{"id":"02", "description":"lleva a nuestra aula","rooms":["hall", "02"]},
-		{"id":"secretaria", "description":"Puerta de entrada a ENTI","rooms":["secretaria","hall"]},
-		{"id":"salida","description":"La salvacion"}
+	"doors": [
+	
+		{"id": "principal", "description": "puerta a la entrada de enti", "rooms": ["parking", "hall"]},
+		{"id": "salida", "description": "salvación"}
 	],
 	"inventory":[]
-	
 }
