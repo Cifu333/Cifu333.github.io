@@ -8,6 +8,7 @@ nav{
 	position:relative;	
 	align-items:center;
 	margin-right:20px;
+	text-align:center;
 	
 }
 nav ul{padding-inline-start:20px;
@@ -29,9 +30,6 @@ nav ul li a:hover{color:#C3C3C3;}
 #nombre{font-size:35px;
 font-family:starsight; }
 
-.especial{ margin-right:0;
-  margin-left: auto;
-}
 
 hr{width:97%;
 margin-top:0;
@@ -76,13 +74,19 @@ top:100;
  letter-spacing:0.1em;
  margin-bottom:50px;}
  
-#cifu-cinturon{
+.cifu-cinturon{
 	aling-items:center;
 	display: flex;
 }
 
+.carta{
+	aling-items:center;
+	display: flex;
+	height:700px;
+	weight:900px;
+}
+
 img{
-	text-align:center;
 	display:flex;
 }
 
