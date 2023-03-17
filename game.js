@@ -1,5 +1,4 @@
-
-let game_data;
+	let game_data;
 
 let current_room = 0;
 let items_picked = [];
@@ -9,7 +8,7 @@ function game (data)
 	game_data = data;
 				
 	document.getElementById("terminal").innerHTML = "<p><strong>¡Bienvenidos a ENTIerrame!</strong> El juego de terror definitivo.</p>";
-	document.getElementById("terminal").innerHTML += "<p>Te encuentras en "+game_data.rooms[current_room].name+". ¿Que quieres hacer?</p>";
+	document.getElementById("terminal").innerHTML += "<p>Te encuentras en "+game_data.rooms[current_room].name+". ¿Qué quieres hacer?</p>";
 }
 
 function terminal_out (info)
@@ -108,6 +107,7 @@ function getDoorNumber (door)
 	return -1;
 }
 
+
 function parseInstruction (instruction)
 {
 
@@ -117,20 +117,15 @@ function parseInstruction (instruction)
 		case "ir":
 			let door_num = getDoorNumber(instruction[1]);
 			if (door_num < 0){
-				console.log("Puerta errónea");
+				console.log("Puerta errónea.");
 				return;
 			}
-			if (game_data.doors[door_num].id == "salida"){
-				terminal_out("<p>Huiste.</p>");
-				location.reload();
-				return;
-			}
-			
+
 			console.log("Door Num: ",door_num);
 
 			let room_num = getRoomNumber(game_data.doors[door_num].rooms[0]);
 			if (room_num < 0){
-				console.log("Habitación errónea");
+				console.log("Habitación errónea.");
 				terminal_out("<p>Esta habitacion no existe.</p>");
 				return;
 			}
@@ -158,7 +153,7 @@ function parseInstruction (instruction)
 			}
 
 			if (game_data.items[item_num].pickable == false){
-				console.log("Item no se puede coger");
+				console.log("Item no se puede coger.");
 				terminal_out("<p>No puedes coger esto.</p>");
 				return;
 			}
@@ -176,21 +171,6 @@ function parseInstruction (instruction)
 
 
 			break;
-
-			case "inventario":
-				let inventoryItem_num = -1;
-				for (let i = 0; i < game_data.items.length; i++){
-					if (game_data.items[i].id == instruction[1]){
-						inventoryItem_num = i;
-					}
-				}
-				if (inventoryItem_num < 0){
-					console.log("Item erróneo");
-					return;
-				}
-
-				terminal_out(game_data.items[inventoryItem_num].description);
-				break;
 
 
 		default:
