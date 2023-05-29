@@ -31,7 +31,7 @@ Sample text.
 
 Html es el lenguaje de programacion que junto a css y javascript se utiliza en web, es un lenguaje de hipertexto pensado para
 escructurar el diseó de las paginas web , sigue un sistema jerarquico y en cascada que facilita su implementacion y moldeabilidad
-normalmente es ejecutado por navegadores. Ha pasado por multiples versiones y cambios hasta llegar al HTML5 lo que es hoy dia, ya que en años anteriores era muy caótico las etiquetas funcionaban de cualquier manera, esto era debido a que se adapto el lenguaje a el navegador Explorer que forzaba a que se ultilizase sus "estandares", esto ocasionó en que la WWWC regulara y creara una serie de estandares y funcionamientos para html creando asi el HTML% que utilizamos hoy dia 
+normalmente es ejecutado por navegadores. Ha pasado por multiples versiones y cambios hasta llegar al HTML5 lo que es hoy dia, ya que en años anteriores era muy caótico las etiquetas funcionaban de cualquier manera, esto era debido a que se adapto el lenguaje a el navegador Explorer que forzaba a que se ultilizase sus "estandares", esto ocasionó en que la WWWC regulara y creara una serie de estandares y funcionamientos para html creando asi el HTML5 que utilizamos hoy dia una version en constante actualización y bien cuidada y centrada en la optimización.
 
 # Qué es CSS?
 
