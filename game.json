@@ -15,7 +15,7 @@
         
            	{"id": "secretaria",
 		"name": "Secretaria",
-		"description": "para entras a la secretaria principal",
+		"description": "La secretaria principal de enti",
 		"items": ["silla", "papelera"],
 		"doors": ["consergeria"]},
         
