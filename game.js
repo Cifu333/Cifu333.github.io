@@ -138,7 +138,7 @@ function parseInstruction (instruction)
 			}
 			else{
 				current_room = room_num;
-                terminal_out("Entering "+game_data.doors[door_num].rooms[0]);
+                terminal_out("Te has desplazado a: "+game_data.doors[door_num].rooms[0]);
 			}
 
 			console.log("Current Num: ", current_room);
