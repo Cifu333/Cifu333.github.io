@@ -11,19 +11,19 @@
 		"name": "Hall de enti",
 		"description": "Conecta la planta baja",
 		"items": ["silla"],
-		"doors": ["principal","consergeria","PuertaAula02"]},
+		"doors": ["principal","consergeria"]},
         
            	{"id": "secretaria",
 		"name": "Secretaria",
 		"description": "para entras a la secretaria principal",
 		"items": ["silla", "papelera"],
-		"doors": ["principal", "salida"]},
+		"doors": ["consergeria"]},
         
            	{"id": "02",
 		"name": "Aula02",
 		"description": "Aula de programacion",
 		"items": ["silla", "cartera"],
-		"doors": ["principal", "salida"]}
+		"doors": ["puertaAula02"]}
 
 	],
 	"items": [
@@ -60,7 +60,7 @@
 		{"id": "principal", "description": "puerta a la entrada de enti", "rooms": ["parking", "hall"]},
 		{"id": "salida", "description": "salvación", "rooms": ["parking"]},
         {"id": "consergeria", "description": "lleva a la secretaria desde el hall", "rooms": ["secretaria", "hall"]},
-        {"id": "PuertaAula02", "description": "esta en mal estado", "rooms": ["02", "hall"]}
+        {"id": "puertaAula02", "description": "esta en mal estado", "rooms": ["02", "hall"]}
 	],
 	"inventory":[]
 }
