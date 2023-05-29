@@ -107,6 +107,17 @@ function getDoorNumber (door)
 	return -1;
 }
 
+function getDoorName (door)
+{
+	for (let i = 0; i < game_data.doors.length; i++){
+		if (game_data.doors[i].id == door){
+			return doors[i].name;
+		}
+	}
+
+	return -1;
+}
+
 function parseInstruction (instruction)
 {
 
@@ -119,10 +130,9 @@ function parseInstruction (instruction)
 				console.log("Puerta errónea");
 				return;
 			}
-			if (game_data.doors[door_num].id == "salida"){
-				terminal_out("<p>salvacion</p>");
-				location.reload();
-				return;
+			else {
+                let door_name = getDoorName(door_num);
+				terminal_out("<p>Pasando a "+door_name+"</p>");
 			}
 			
 			console.log("Door Num: ",door_num);
