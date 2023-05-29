@@ -7,8 +7,8 @@ function game (data)
 {
 	game_data = data;
 				
-	document.getElementById("terminal").innerHTML = "<p><strong>¡Bienvenidos a ENTIerrame!</strong> El juego de terror definitivo.</p>";
-	document.getElementById("terminal").innerHTML += "<p>Te encuentras en "+game_data.rooms[current_room].name+". ¿Que quieres hacer?</p>";
+	document.getElementById("terminal").innerHTML = "<p><strong>¡Bienvenidos a ENTIerrame!</strong> El juego de terror de enti.</p>";
+	document.getElementById("terminal").innerHTML += "<p>Empiezas en "+game_data.rooms[current_room].name+". ¿Que quieres hacer?</p>";
 }
 
 function terminal_out (info)
@@ -120,7 +120,7 @@ function parseInstruction (instruction)
 				return;
 			}
 			if (game_data.doors[door_num].id == "salida"){
-				terminal_out("<p>Enorabuena, has salido de este infierno! Ya no tendras que abrir el visual</p>");
+				terminal_out("<p>salvacion</p>");
 				location.reload();
 				return;
 			}
@@ -130,7 +130,7 @@ function parseInstruction (instruction)
 			let room_num = getRoomNumber(game_data.doors[door_num].rooms[0]);
 			if (room_num < 0){
 				console.log("Habitación errónea");
-				terminal_out("<p>Esta habitacion no existe, creo, espero que no sea el codigo porque me mato :D</p>");
+				terminal_out("<p>Esta habitacion no existe</p>");
 				return;
 			}
 			console.log("Current room: ", current_room);
@@ -158,7 +158,7 @@ function parseInstruction (instruction)
 
 			if (game_data.items[item_num].pickable == false){
 				console.log("Item no se puede coger");
-				terminal_out("<p>No puedes coger esto, no es open source</p>");
+				terminal_out("<p>No puedes coger esto</p>");
 				return;
 			}
 						
@@ -219,4 +219,4 @@ function readAction ()
 
 }
 
-fetch("https://danielperezgonz.github.io/game.json").then(response => response.json()).then(data => game(data));
+fetch("https://Cifu333.github.io/game.json").then(response => response.json()).then(data => game(data));
