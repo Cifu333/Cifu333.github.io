@@ -134,7 +134,7 @@ function parseInstruction (instruction)
 			if (room_num == current_room){
 				console.log("la habitacion: ", game_data.doors[door_num].rooms[1], ", ", game_data.rooms[2].id);
 				current_room = getRoomNumber(game_data.doors[door_num].rooms[1]);
-                terminal_out("Entering "+game_data.doors[door_num].rooms[1]);
+                terminal_out("Te has desplazado a: "+game_data.doors[door_num].rooms[1]);
 			}
 			else{
 				current_room = room_num;
