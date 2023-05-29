@@ -11,7 +11,7 @@
 		"name": "Hall de enti",
 		"description": "Conecta la planta baja",
 		"items": ["silla"],
-		"doors": ["principal", "salida"]},
+		"doors": ["principal","consergeria","PuertaAula02"]},
         
            	{"id": "secretaria",
 		"name": "Secretaria",
