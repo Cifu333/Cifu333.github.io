@@ -17,13 +17,13 @@
 		"name": "Secretaria",
 		"description": "para entras a la secretaria principal",
 		"items": ["silla", "papelera"],
-		"doors": ["consergeria","principal"]},
+		"doors": ["consergeria"]},
         
            	{"id": "02",
 		"name": "Aula02",
 		"description": "Aula de programacion",
 		"items": ["silla", "cartera"],
-		"doors": ["puertaAula02","principal"]}
+		"doors": ["puertaAula02"]}
 
 	],
 	"items": [
